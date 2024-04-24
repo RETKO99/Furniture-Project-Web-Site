@@ -20,8 +20,8 @@ html ::-webkit-scrollbar-track {
 }
 
 html ::-webkit-scrollbar-thumb {
-background: #388b6f;
-border-radius: 10px;
+background: hsl(0, 81%, 30%);
+border-radius: 8px;
 }
 
 html ::-webkit-scrollbar {

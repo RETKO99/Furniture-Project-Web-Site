@@ -24,6 +24,7 @@ img{
 
 body{
     color:var(--text-color);
+    background-image: linear-gradient(to top,gray,white);
 }
 .container{
     max-width: 1068px;
@@ -39,7 +40,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--bg-color);
+    background: hsl(0, 39%, 47%);
     box-shadow: 0 1px 4px hsl(0 4% 15%/10%);
     z-index: 100;
 
@@ -54,8 +55,8 @@ header{
 }
 
 .logo{
-    font-size: 1.2rem;
-    color: var(--text-color);
+    font-size: 1.4rem;
+    color: white;
     font-weight: 400;
 
 }
@@ -74,7 +75,7 @@ header{
     width: 360px;
     min-height: 100vh;
     padding: 20px;
-    background:var(--bg-color);
+    background-image: linear-gradient(to top,gray,white);
     box-shadow: -2px 0 4px hsl(0 4% 15% /10%);
     transition: 0.3s;
 
@@ -128,7 +129,7 @@ right: 0;
 .cart-quantity{
     border: 1px solid var(--text-color);
     outline-color: var(--main-color);
-    width: 2.4rem;
+    width: 3.5rem;
     text-align: center;
     font-size: 1rem;
 }
@@ -197,10 +198,11 @@ section{
 }
 
 .section-title{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     text-align: center;
     margin-bottom: 1.5rem;
+    color: hsl(0, 39%, 47%);
 }
 
 .shop{
