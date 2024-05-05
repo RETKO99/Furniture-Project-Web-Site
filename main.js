@@ -55,12 +55,12 @@ document.getElementsByClassName("btn-buy")[0].addEventListener("click",buyButton
 }
 
 //buy button 
-function buyButtonClicked(){
-    alert("Your Order is placed");
+function buyButtonClicked(){ 
     var cartContent = document.getElementsByClassName("cart-content")[0];
     while(cartContent.hasChildNodes()){
         cartContent.removeChild(cartContent.firstChild);
     }
+
     updatetotal();
 
 }
