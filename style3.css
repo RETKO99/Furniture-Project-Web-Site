@@ -86,7 +86,7 @@ form .user-details .input-box{
 
 form .button{
     height: 45px;
-    margin: 45px 0;
+    margin: 40px 0;
 }
 
 form .button input{
@@ -107,6 +107,34 @@ form .button input:hover{
     cursor: pointer;
     background: linear-gradient(-135deg,#875454,#BFB9B9);
 }
+
+/* add button2 style */
+form .button2{
+    height: 45px;
+    margin: 45px 0;
+    
+}
+
+form .button2 input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(#875454,#BFB9B9);
+
+}
+
+form .button2 input:hover{
+    cursor: pointer;
+    background: linear-gradient(-135deg,#875454,#BFB9B9);
+}
+
+
 
 @media (max-width:584px){
     .container{
